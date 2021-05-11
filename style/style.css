@@ -1,0 +1,259 @@
+* {
+  overflow: auto;
+  clear: both;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+#juiceWorld {
+  text-align: center;
+  color: #ffffff;
+}
+
+#navLinks {
+  display: flex;
+  justify-content: center;
+}
+
+#navLinks li {
+  list-style-type: none;
+  padding: 2%;
+  line-height: 1;
+  /* color: #ffffff; */
+  font-size: 16px;
+  font-family: "Helvetica LT W01 Bold";
+  cursor: pointer;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#juiceWorldMainCover {
+  display: flex;
+  justify-content: center;
+}
+
+#juiceWorldMainCover img {
+  width: 50%;
+  height: 100%;
+}
+
+#juiceWorldMainCover2 {
+  display: none;
+}
+
+#listenNow {
+  margin: 20px auto;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.listen {
+  max-width: 240px;
+  height: 40px;
+  line-height: 40px;
+  display: block;
+  color: #d29d62;
+  border: 1px solid;
+  text-transform: capitalize;
+  background: transparent;
+  text-align: center;
+  margin: 0 auto;
+}
+
+ul#socialMedia {
+  margin: 0;
+  padding: 0;
+}
+
+#socialMedia {
+  display: flex;
+  justify-content: center;
+}
+
+#socialMedia li {
+  list-style-type: none;
+  cursor: pointer;
+  padding: 2%;
+}
+
+#socialMedia li a {
+  color: #ffffff;
+}
+
+#musicAndVideo h3 {
+  color: #575757;
+}
+
+#joinNow {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+  outline: none;
+  width: 30%;
+}
+
+input,
+select {
+  color: #ffffff;
+}
+
+button {
+  color: #ffffff;
+  margin-left: 0.5%;
+  background-color: #000000;
+  border: none;
+}
+
+button span {
+  font-size: 15px;
+}
+
+#musicAndVideo {
+  display: flex;
+  margin-bottom: 3%;
+}
+
+#musicAndVideo h3 {
+  text-decoration: underline;
+}
+
+.container_musicAndVideo {
+  padding: 3% 5% 0 5%;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  padding-bottom: 3%;
+}
+
+#musicAndVideo .leftDiv {
+  flex-grow: 1;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+#musicAndVideo .rightDiv {
+  flex-grow: 1;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#navStore {
+  margin-left: 85%;
+}
+
+#storeHorizontalLine {
+  width: 80%;
+}
+
+.container {
+  padding: 3% 5% 0 5%;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+
+.flex-item {
+  margin: 1%;
+  color: white;
+  text-align: center;
+}
+
+.flex-item img {
+  width: 80%;
+  height: 80%;
+}
+
+.item img {
+  width: 100%;
+  margin: 10%;
+  height: 80%;
+}
+
+#mailingList {
+  margin-bottom: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+#subscribe {
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 7%;
+}
+
+#mailingList hr {
+  color: #ffffff;
+  width: 40%;
+}
+
+#mailingList span {
+  color: #ffffff;
+  text-align: right;
+}
+
+.hamburgerMenu {
+  width: 35px;
+  height: 2px;
+  background-color: white;
+  margin: 5px 0;
+  float: right;
+}
+
+#hamburgerMenu {
+  display: none;
+}
+
+@media only screen and (max-width: 550px) {
+  #juiceWorld {
+    text-align: left;
+  }
+
+  #hamburgerMenu {
+    display: block;
+  }
+
+  button {
+    margin-left: 0;
+  }
+
+  #navLinks {
+    display: none;
+  }
+  #listenNow {
+    margin-bottom: 10%;
+  }
+  #juiceWorldMainCover2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  #juiceWorldMainCover img {
+    margin-bottom: 10%;
+  }
+
+  #juiceWorldMainCover2 img {
+    width: 50%;
+    height: 100%;
+    margin-bottom: 10%;
+  }
+
+  .socialMediaIcon {
+    height: 1em;
+    width: 1em;
+  }
+}
