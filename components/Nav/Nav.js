@@ -3,18 +3,6 @@ import React from 'react';
 class Nav extends React.Component {
     state = {};
 
-    handleCollapse = e => {
-        e.preventDefault();
-
-        var x = document.getElementById("hamburgerMenu");
-        console.log("hi")
-        if (x.style.display === "navLinks") {
-          x.style.display = "none";
-        } else {
-          x.style.display = "block";
-        }
-    }
-
     render() {
         return(
             <div>
@@ -38,11 +26,6 @@ class Nav extends React.Component {
                         <li>
                             <strong>
                                 <a href="/Store">STORE</a>
-                            </strong>
-                        </li>
-                        <li>
-                            <strong>
-                                <a href="/Tour">TOUR</a>
                             </strong>
                         </li>
                         <li>
